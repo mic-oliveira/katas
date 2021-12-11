@@ -1,12 +1,14 @@
 <?php
 namespace Kata\Calculadora\Tests;
 
+use Kata\Calculadora\Calculadora;
 use PHPUnit\Framework\TestCase;
 
 class CalculadoraTest extends TestCase
 {
-    public function test_example()
+    public function test_should_add()
     {
-        $this->assertTrue(true);
+        $calculadora = new Calculadora();
+        $this->assertEquals(2, $calculadora->add(1,1));
     }
 }
