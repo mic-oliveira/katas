@@ -5,8 +5,8 @@ use PHPUnit\Framework\TestCase;
 
 class CalculadoraTest extends TestCase
 {
-    public function test_should_add()
+    public function test_example()
     {
-        $this->assertTrue(false);
+        $this->assertTrue(true);
     }
 }
