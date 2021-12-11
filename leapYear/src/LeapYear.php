@@ -6,7 +6,15 @@ class LeapYear
 {
     public function isLeapYear(int $year): bool
     {
-        return false;
+        if (!$this->isDivisibleByFour($year)) {
+            return false;
+        }
+        return true;
+    }
+
+    public function isDivisibleByFour(int $value): bool
+    {
+        return ($value % 4) == 0;
     }
 
 }
