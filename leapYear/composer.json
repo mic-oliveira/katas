@@ -5,7 +5,7 @@
 
     "autoload": {
         "psr-4": {
-            "Kata\\Calculadora\\": "src"
+            "Kata\\LeapYear\\": "src"
         }
     },
 
