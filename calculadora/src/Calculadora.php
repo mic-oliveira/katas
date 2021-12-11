@@ -12,4 +12,9 @@ class Calculadora
     {
         return $primeiroValor + $segundoValor;
     }
+
+    public function sub($int, $int1)
+    {
+        return $int - $int1;
+    }
 }
