@@ -1,4 +1,5 @@
 <?php
+
 namespace Kata\Calculadora\Tests;
 
 use Kata\Calculadora\Calculadora;
@@ -10,5 +11,6 @@ class CalculadoraTest extends TestCase
     {
         $calculadora = new Calculadora();
         $this->assertEquals(2, $calculadora->add(1,1));
+        $this->assertEquals(2, $calculadora->add(2,1));
     }
 }
