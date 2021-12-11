@@ -6,8 +6,6 @@ services:
     working_dir: /app
     volumes:
       - ./:/app
-    depends_on:
-      - rabbitmq
     labels:
       - 'traefik.enable=true'
       - 'traefik.frontend.rule=Host:$PROJECT_NAME.avato.com.br'
