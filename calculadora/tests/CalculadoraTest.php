@@ -11,6 +11,11 @@ class CalculadoraTest extends TestCase
     {
         $calculadora = new Calculadora();
         $this->assertEquals(2, $calculadora->add(1,1));
-        $this->assertEquals(2, $calculadora->add(2,1));
+    }
+
+    public function test_should_sub()
+    {
+        $calculadora = new Calculadora();
+        $this->assertEquals(2, $calculadora->sub(1,1));
     }
 }

@@ -10,6 +10,6 @@ class Calculadora
 
     public function add(float $primeiroValor, float $segundoValor): float
     {
-        return 8;
+        return $primeiroValor + $segundoValor;
     }
 }
